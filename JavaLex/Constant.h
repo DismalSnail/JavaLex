@@ -2,7 +2,7 @@
 #define CONSTANT_H
 
 //类型属性设计
-static const int T_ERROR = 0x100;    //错误的单词
+static const int T_ERROR = 0x100;     //错误的单词
 static const int T_COMMENT = 0x101;    //注释
 static const int T_SPACE = 0x102;    //空格
 static const int T_KEYWORD = 0x103;    //关键字

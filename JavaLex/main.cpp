@@ -16,10 +16,9 @@ int main(int argc, char * argv[])
 	char fn_lex[MAX_LINE];  //输出给语法分析器的文件名
 	Scanner * scan;
 
-	cout << "JavaLex by Lin Jian" << endl;
 	if (argc == 1)
 	{
-		cout << "Input file name: ";
+		cout << "请输入待测java文件名: ";
 		cin >> fn_in;
 	}
 	else
